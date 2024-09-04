@@ -9,7 +9,7 @@ interface StockListProps {
 
 export default function StockList({ stocks, onSelectStock, selectedStock }: StockListProps) {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto" style={{ height: '52dvh', overflowY: 'auto' }}>
       <table className="min-w-full bg-white">
         <thead className="bg-gray-300">
           <tr>
