@@ -43,7 +43,7 @@ export default function StockDashboard() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Real - time Stock Market App</h1>
+      <h1 className="text-4xl font-bold mt-5 mb-20">Real - Time Stock Market App</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-1">
           <h2 className="text-xl font-semibold mb-4">Stock List</h2>
